@@ -1,0 +1,67 @@
+Bus Reservation System
+
+This is a simple bus reservation system that allows users to install buses, reserve seats, show bus details, and view all available buses.
+
+Installation
+
+To install the bus reservation system, simply clone the repository and run the make command. This will compile the code and create the executable file bus_reservation.
+
+Usage
+
+To run the bus reservation system, simply execute the bus_reservation file. The program will display a menu with five options:
+
+Install: Install a new bus
+Reservation: Reserve a seat on a bus
+Show: Show details of a bus
+Buses Available: View all available buses
+Exit: Exit the program
+To select an option, simply enter the corresponding number and press Enter.
+
+Installing Buses
+
+To install a new bus, select option 1 from the main menu. The program will prompt you to enter the following information for the bus:
+
+Bus number: The unique identifier for the bus
+Driver's name: The name of the bus driver
+Arrival time: The time the bus arrives at the origin station
+Departure time: The time the bus departs from the destination station
+From: The origin station
+To: The destination station
+Price: The price of a ticket for the bus
+Once you have entered all of the required information, the program will install the bus.
+
+Reserving Seats
+
+To reserve a seat on a bus, select option 2 from the main menu. The program will prompt you to enter the bus number and seat number. If the seat is available, the program will prompt you to enter the passenger's name. The program will then reserve the seat for the passenger.
+
+Showing Bus Details
+
+To show the details of a bus, select option 3 from the main menu. The program will prompt you to enter the bus number. If the bus exists, the program will display the following information for the bus:
+
+Bus number: The unique identifier for the bus
+Driver's name: The name of the bus driver
+Arrival time: The time the bus arrives at the origin station
+Departure time: The time the bus departs from the destination station
+From: The origin station
+To: The destination station
+Price: The price of a ticket for the bus
+Viewing Available Buses
+
+To view all available buses, select option 4 from the main menu. The program will display a list of all available buses, including the following information for each bus:
+
+Bus number: The unique identifier for the bus
+Driver's name: The name of the bus driver
+Arrival time: The time the bus arrives at the origin station
+Departure time: The time the bus departs from the destination station
+From: The origin station
+To: The destination station
+Price: The price of a ticket for the bus
+Exiting the Program
+
+To exit the program, select option 5 from the main menu. The program will exit gracefully.
+
+Additional Notes
+
+The program can store up to a maximum of 10 buses.
+Each bus has 8 rows and 4 columns of seats.
+The program uses a simple text file to store the bus data.
